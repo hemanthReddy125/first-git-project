@@ -1,0 +1,31 @@
+--> to check the current user details
+
+	$ git config --list
+
+
+
+
+
+
+
+===> to change account in github desktop
+	======================================
+
+
+		1) remove saved credentials from windows credential manger
+
+		2) uninstall the github desktop
+
+		3) then open git bash
+
+		4) then use the following command to change the account
+
+		
+			$ git config --global user.name another_account_user_name
+
+			$ git config --global user.email another_account_email
+
+
+		5) now again install the github desktop.
+
+
